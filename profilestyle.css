@@ -1,0 +1,108 @@
+.body {
+    font-family: "Lato", sans-serif;
+}
+input[type=text], input[type=password] {
+    width: 95%;
+    padding: 5px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for all buttons */
+.sidenav 
+{
+    height: 100%;
+    width: 400px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#E8DAEF ;
+    background-image: linear-gradient(to right, rgba(221,160,221,0), rgba(221,160,221,1)); /* Standard syntax (must be last) */
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    background-color: rgb(221,160,221);
+}
+
+.main {
+    margin-left: 450px;
+    font-size: 20px; 
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+  .table1 
+    {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 800px;
+    }
+
+   th, td
+   {
+    text-align: left;
+    padding: 8px;
+    }
+ .details
+      {
+         height:40px;
+         width:220px;
+         background-color:#7D3C98 ;
+         opacity:0.6;
+         color:white;
+      }
+
+.hh
+{
+ font-size: 20px; 
+}
+.table2 
+    {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 700px;
+    border: 1px solid black;
+    }
+  
+
+    .table2 td
+    {
+      border: 1px solid black;
+   }
+
+      .table2 th
+    {
+      border: 1px solid black;
+   }
+  
+     .table2 tr:nth-child(even)
+    {
+     background-color: #dddddd;
+    }
+.ds
+{
+   color:#7D3C98;
+   height:15px;
+ }

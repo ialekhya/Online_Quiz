@@ -1,0 +1,50 @@
+
+   	   body
+   	   {
+   	   	left:0;
+   	   	top:0;
+   	   	background-image:url("vv2.jpg");
+   	    background-repeat: no-repeat;
+   	    background-size: cover;
+   	    margin:0;
+   	    padding:0;
+
+   	   }
+   	   
+   	  .loginbox
+   	  {
+   	  	   margin-left:150px;
+   	  	   margin-top:150px;
+          width:300px;
+          height:400px;
+          background-color:rgba(60,60,60,0.6);
+          color:white;
+          padding:30px;
+   	  }
+
+   	  input[type=text], input[type=email] ,input[type=password]
+   	  {
+          width: 70%;
+          padding: 6px ;
+          margin: 8px ;
+          display: inline-block;
+          border: 1px solid #ccc;
+          box-sizing: border-box;
+    }
+    input[type=submit]
+    {
+    	width:80%;
+    	margin-left:30px;
+    	height:30px;
+    	
+    }
+    .avt-image
+    {
+          width:100px;
+          height:100px;
+          border-radius:70%;
+          position:absolute;
+          margin-top:-100px;
+          margin-left:100px;
+    }
+   
